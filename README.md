@@ -2,6 +2,8 @@
 
 ![Header/intro section for the Huddle landing page with curved sections](./design/desktop-preview.jpg)
 
+[Demo](https://fm-huddle-landing-page-with-curved-sections.vercel.app)
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
