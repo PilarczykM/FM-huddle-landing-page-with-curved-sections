@@ -1,0 +1,17 @@
+{
+  "name": "huddle-landing-page-with-curved-sections",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css": "node-sass src/style.scss -o dist",
+    "css:min": "node-sass src/style.scss -o dist --output-style compressed",
+    "css:watch": "npm run css && node-sass src/style.scss -w -o dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}

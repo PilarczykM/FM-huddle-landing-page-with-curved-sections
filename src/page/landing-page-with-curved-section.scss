@@ -1,0 +1,256 @@
+.main {
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media only screen and (min-width: $layout-breakpoint-tablet) {
+  .content {
+    display: flex;
+    align-items: center;
+    gap: 12rem;
+
+    &--reverse {
+      flex-direction: row-reverse;
+    }
+  }
+}
+
+.community {
+  padding: 0 2.5rem;
+  padding-top: 13rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  align-items: center;
+
+  @media only screen and (min-width: $layout-breakpoint-tablet) {
+    max-width: 120rem;
+    margin: 0 auto;
+
+    .slogan {
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      max-width: 102rem;
+    }
+
+    .paragraph {
+      max-width: 68rem;
+    }
+  }
+
+  @media only screen and (min-width: $layout-breakpoint-desktop) {
+    padding: inherit 0;
+  }
+}
+
+.results {
+  padding: 10rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 13rem;
+
+  .illustration {
+    margin: 0 auto;
+    max-width: 90%;
+  }
+
+  &__numbers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9rem;
+
+    .result {
+      display: flex;
+      flex-direction: column;
+      .image-wrapper {
+        max-width: 3rem;
+        margin-bottom: -0.5rem;
+        align-self: flex-start;
+      }
+
+      &__number {
+        font-size: 5.6rem;
+        font-weight: $bold-weight;
+      }
+
+      &__message {
+        font-size: 1.3rem;
+        color: $aluminium;
+      }
+    }
+  }
+
+  @media only screen and (min-width: $layout-breakpoint-tablet) {
+    padding-bottom: 28rem;
+    max-width: 120rem;
+    margin: 0 auto;
+
+    .illustration {
+      max-width: 102rem;
+    }
+
+    &__numbers {
+      flex-direction: row;
+      justify-content: center;
+      gap: 35rem;
+
+      .result {
+        gap: 4rem;
+        .image-wrapper {
+          max-width: 5rem;
+          margin-bottom: -4.5rem;
+        }
+
+        &__number {
+          font-size: 8rem;
+        }
+
+        &__message {
+          font-size: 2.4rem;
+          font-weight: $base-weight;
+        }
+      }
+    }
+  }
+
+  @media only screen and (min-width: $layout-breakpoint-desktop) {
+    padding: inherit 0;
+  }
+}
+
+.growth {
+  position: relative;
+  background-color: $very-pale-blue;
+  padding: 0 2.5rem;
+  padding-top: 9rem;
+  padding-bottom: 6rem;
+  width: 100%;
+
+  .illustration {
+    margin: 0 auto;
+    max-width: 80%;
+  }
+
+  .bg-section-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    transform: translateY(-95%);
+  }
+
+  .bg-section-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: translateY(100%);
+  }
+
+  @media only screen and (min-width: $layout-breakpoint-tablet) {
+    max-width: 120rem;
+    margin: 0 auto;
+  }
+
+  @media only screen and (min-width: $layout-breakpoint-desktop) {
+    padding: inherit 0;
+  }
+}
+
+.conversations {
+  padding: 0 2.5rem;
+  padding-top: 15rem;
+  padding-bottom: 22rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+
+  .illustration {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  @media only screen and (min-width: $layout-breakpoint-tablet) {
+    padding-top: 33rem;
+    padding-bottom: 25rem;
+    max-width: 120rem;
+    margin: 0 auto;
+  }
+
+  @media only screen and (min-width: $layout-breakpoint-desktop) {
+    padding: inherit 0;
+  }
+}
+
+.users {
+  position: relative;
+  background-color: $very-pale-blue;
+  padding: 0 2.5rem;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+
+  .illustration {
+    margin: 0 auto;
+    max-width: 70%;
+  }
+
+  .bg-section-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    transform: translateY(-96%);
+  }
+
+  .bg-section-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: translateY(98%);
+  }
+
+  @media only screen and (min-width: $layout-breakpoint-tablet) {
+    max-width: 120rem;
+    margin: 0 auto;
+    .illustration {
+      max-width: 100%;
+    }
+  }
+
+  @media only screen and (min-width: $layout-breakpoint-desktop) {
+    padding: inherit 0;
+  }
+}
+
+.join-us {
+  padding-top: 14rem;
+  padding-bottom: 28rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  align-items: center;
+
+  .heading {
+    max-width: 25rem;
+  }
+
+  @media only screen and (min-width: $layout-breakpoint-tablet) {
+    padding-top: 32rem;
+    padding-bottom: 32rem;
+    max-width: 120rem;
+    margin: 0 auto;
+
+    .heading {
+      max-width: 69rem;
+    }
+  }
+
+  @media only screen and (min-width: $layout-breakpoint-desktop) {
+    padding: inherit 0;
+  }
+}

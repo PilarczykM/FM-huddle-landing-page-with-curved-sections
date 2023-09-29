@@ -1,0 +1,51 @@
+.button {
+  padding: 0.4rem 1.5rem;
+  font-size: 1.2rem;
+  color: white;
+  border-radius: 2.5rem;
+  max-width: 20rem;
+
+  &__primary {
+    background-color: $pink;
+    padding: 1rem 4rem;
+
+    &--squared {
+      border-radius: 0.5rem;
+    }
+
+    &:hover {
+      background-color: lighten($pink, 10%);
+    }
+  }
+
+  &__secondary {
+    border: 1px solid $pink;
+    color: $pink;
+    font-size: 1rem;
+
+    &:hover {
+      color: lighten($pink, 20%);
+      border-color: lighten($pink, 20%);
+    }
+  }
+
+  @media only screen and (min-width: $layout-breakpoint-tablet) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 40rem;
+    width: 100%;
+    font-size: 1.8rem;
+    font-weight: $bold-weight;
+    padding: 3rem 3rem;
+    border-radius: 5rem;
+
+    &__primary {
+      padding: 1rem 4rem;
+
+      &--squared {
+        border-radius: 0.5rem;
+      }
+    }
+  }
+}

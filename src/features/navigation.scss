@@ -1,0 +1,32 @@
+.nav {
+  padding: 0 2.5rem;
+  padding-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .image-wrapper {
+    max-width: 10rem;
+  }
+
+  @media only screen and (min-width: $layout-breakpoint-tablet) {
+    max-width: 130rem;
+    margin: 0 auto;
+
+    .image-wrapper {
+      max-width: 24rem;
+    }
+
+    .button {
+      max-width: 14rem;
+      padding: 1rem 2rem;
+      font-weight: $base-weight;
+      font-size: 1.6rem;
+    }
+  }
+
+  @media only screen and (min-width: $layout-breakpoint-desktop) {
+    padding: inherit 0;
+    padding-top: 7.8rem;
+  }
+}

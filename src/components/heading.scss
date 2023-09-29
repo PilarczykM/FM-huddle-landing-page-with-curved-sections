@@ -1,0 +1,23 @@
+.heading {
+  font-family: "Poppins", sans-serif;
+  font-weight: $bold-weight;
+  color: $very-dark-cyan;
+
+  &--xl {
+    font-size: 2.4rem;
+  }
+
+  &--l {
+    font-size: 2rem;
+  }
+
+  @media only screen and (min-width: $layout-breakpoint-tablet) {
+    &--xl {
+      font-size: 4rem;
+    }
+
+    &--l {
+      font-size: 3.6rem;
+    }
+  }
+}

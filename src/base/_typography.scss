@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap");
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: $base-size;
+  font-family: "Open Sans", sans-serif;
+  color: $very-dark-cyan;
+  font-weight: $semi-bold-weight;
+}

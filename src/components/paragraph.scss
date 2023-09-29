@@ -1,0 +1,10 @@
+.paragraph {
+  font-size: 1.4rem;
+  font-weight: $base-weight;
+  letter-spacing: 0.1rem;
+  font-family: "Open Sans", sans-serif;
+
+  @media only screen and (min-width: $layout-breakpoint-tablet) {
+    font-size: 1.6rem;
+  }
+}
